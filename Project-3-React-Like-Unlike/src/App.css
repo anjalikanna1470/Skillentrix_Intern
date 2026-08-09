@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.app h1 {
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 280px;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.card p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.liked {
+  color: #e63946;
+  font-weight: bold;
+}
+
+.not-liked {
+  color: #777;
+  font-weight: bold;
+}
+
+.card button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  background: #6c5ce7;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #4834d4;
+}
